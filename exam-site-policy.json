@@ -1,0 +1,15 @@
+{
+  "Id": "Policy1473693250412",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1473693232842",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::aws-quick-exam/*",
+      "Principal": "*"
+    }
+  ]
+}
